@@ -1,0 +1,93 @@
+:root {
+    --darkGold: #a48111;
+    --paleGold: #bda06a;
+    --gold: #d4af37;
+    --lightGray: #bbb;
+    --darkGray: #aaa;
+}
+
+body {
+    background: linear-gradient(45deg, var(--darkGold), var(--paleGold));
+}
+
+header {
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: var(--darkGold);
+    font-size: 24px;
+}
+
+article {
+    background: linear-gradient(45deg, var(--darkGray), var(--lightGray));
+    border: 5px solid var(--gold);
+    border-radius: 15px;
+    width: 650px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer {
+    width: 1000px;
+    margin: auto;
+}
+
+.centerText {
+    text-align: center;
+}
+
+#hiv {
+    position: relative;
+    left: 350px;
+    bottom: 300px;
+}
+
+#stats {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stats > * {
+    width: 325;
+    height: auto;
+}
+
+#deaths {
+    margin-top: -125px;
+}
+
+#prevention {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#prevention > * {
+    width: 300px;
+    height: auto;
+    align-items: center;
+}
+
+#pill {
+    width: 300px;
+     height: 200px;
+}
+
+#map {
+    width: 250px;
+    height: auto;
+    margin-left: 33%;
+}
+
+#sources {
+    margin-left: 40%;
+}

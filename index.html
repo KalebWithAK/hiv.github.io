@@ -6,12 +6,12 @@
     </head>
     <body>
         <header>
-            <h1>HIV</h1>
-            <h2>Human immunodeficieny virus</h2>
+            <h1 class="centerText">HIV</h1>
+            <h2 class="centerText"><em>Human Immunodeficieny Virus</em></h2>
         </header>
         <main>
             <article>
-                <h2>HIV causes AIDS</h2>
+                <h2 class="centerText">HIV causes AIDS</h2>
                 <p>Symptoms include</p>
                 <ul>
                     <li>mouth ulcers</li>
@@ -25,6 +25,9 @@
                     <li>fever</li>
                 </ul>
 
+                <img id="hiv" src="./images/hiv.jpg">
+
+                <div style="margin-top: -250px;">
                 <p>HIV is aquired via fluid swapping. This includes</p>
                 <ul>
                     <li>sharing needles with someone who has HIV</li>
@@ -39,52 +42,58 @@
                     <li>deep open-mouth kissing</li>
                     <li>tattoos and body piercings</li>
                 </ul>
+                </div>
             </article>
 
             <article>
-                <h2>HIV's Statistics</h2>
-                <ul>
-                    <li>More than 35,000 new infections each year</li>
-                    <li>More than 5,000 people die each year from AIDS</li>
-                </ul>
-                <img id="cases" src="./images/cases.jpg">
-                <img id="deaths" src="./images/death.jpg">
+                <h2 class="centerText">HIV's Statistics</h2>
+                <div id="stats">
+                <img id="cases" src="./images/cases.jpg" alt="icon of a person coughing">
+                <p>More than 35,000 new infections each year</p>
+                <p>More than 5,000 people die each year from AIDS</p>
+                <img id="deaths" src="./images/death.jpg" alt="skull and crossbones">
+                </div>
                 
             </article>
 
             <article>
-                <h2>Prevention</h2>
-                <p>Ways to prevent the spread of HIV include</p>
-                <ul>
-                    <li>protecting yourself during sex</li>
-                    <li>protecting yourself if injecting drugs</li>
-                    <li>
-                        taking antiviral therapy <em>ART</em> if you have HIV, which can lower
-                        the number of copies of HIV in your blood which makes you pose virtually no
-                        risk of infecting others with the pathogen
-                    </li>
-                    <li>prevent perinital infection by taking HIV medication, giving the baby HIV medication for 4 to 6 weeks after birth, and avoiding breastfeeding</li>
-                </ul>
+                <h2 class="centerText">Prevention</h2>
+                
+                <div id="prevention">
+                    <p>Ways to prevent the spread of HIV include</p>
+                    <img id="condoms" src="./images/condoms.png" alt="some condoms">
+                    <img id="pill" src="./images/pill.png" alt="a pill">
+                    <ul>
+                        <li>protecting yourself during sex</li>
+                        <li>protecting yourself if injecting drugs</li>
+                        <li>
+                            taking antiviral therapy <em>ART</em> if you have HIV, which can lower
+                            the number of copies of HIV in your blood which makes you pose virtually no
+                            risk of infecting others with the pathogen
+                        </li>
+                        <li>prevent perinital infection by taking HIV medication, giving the baby HIV medication for 4 to 6 weeks after birth, and avoiding breastfeeding</li>
+                    </ul>
+                </div>
             </article>
 
             <article>
-                <h2>Most recent outbreak</h2>
+                <h2 class="centerText">Most recent outbreak</h2>
                 <p>
                     The most recent outbreak occurred in Seattle back in 2018 among the city's
                     homeless population. This outbreak occurred because homeless heroin users would share needles.
                 </p>
-                <img src="./images/map.jpg">
+                <img id="map" src="./images/map.jpg" alt="Seattle on a map of the united states">
             </article>
         </main>
         <footer>
-            <h2>Sources</h2>
-            <ul>
-                <li>HIV information - <a>https://www.cdc.gov/hiv/basics/index.html</a></li>
-                <li>Outbreak information - <a>https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a2.htm</a></li>
-                <li>Statistics - <a>https://www.kff.org/hivaids/fact-sheet/the-hivaids-epidemic-in-the-united-states-the-basics/</a></li>
-                <li>Prevention - <a>https://www.cdc.gov/hiv/basics/prevention.html</a></li>
+            <h2 class="centerText">Sources</h2>
+            <ul id="sources">
+                <li><a href="https://www.cdc.gov/hiv/basics/index.html">HIV information</a></li>
+                <li><a href="https://www.cdc.gov/mmwr/volumes/68/wr/mm6815a2.htm">Outbreak information</a></li>
+                <li><a href="https://www.kff.org/hivaids/fact-sheet/the-hivaids-epidemic-in-the-united-states-the-basics/">Outbreak information</a></li>
+                <li><a href="https://www.cdc.gov/hiv/basics/prevention.html">Outbrak Information</a></li>
             </ul>
-            <p>This page was built by - <em>Kaleb Dean</em></p>
+            <p style="text-align: center;">This page was built by - <em>Kaleb Dean</em></p>
         </footer>
     </body>
 </html>
